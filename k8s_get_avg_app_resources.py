@@ -1,8 +1,7 @@
-import os,sys,json
+import os
 import math
 import re
 from kubernetes import client, config
-# define context ci-d01 
 from kubernetes.client.rest import ApiException
 
 config.load_kube_config(context='context')
